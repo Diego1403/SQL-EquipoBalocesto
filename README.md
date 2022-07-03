@@ -3,6 +3,8 @@
 
 Para poder lograr una solución ante el análisis manual de comparación , organización y mantenimiento  entre equipos de basket y todas sus relaciones , hemos optado por una base de datos que tome en cuenta diversos aspectos desde la altura del jugador hasta año de fundación de los clubes participantes . Los datos que hemos utilizado no son verídicos y sirven únicamente de ejemplo para mostrar el potencial de nuestra base de datos. Para evitar complicaciones en cuanto al almacenamiento de datos como sobrecarga de información necesaria, supondremos que un entrenador no puede entrenar para 2 equipos , existen solamente 3 tipos de partidos , el partido completo se juega en un estadio , los jugadores solo pueden jugar en una posición a la vez , 2 partidos amistosos distintos no pueden tener la misma causa y 2 equipos no pueden jugar mas que 1 partido en la misma fecha. 
 
+## [Esquema Conceptual Modificado de la BD](https://drawsql.app/alanturin/diagrams/equipobaloncesto)
+
 
 ## Tablas:
   #### codigo_postal 
